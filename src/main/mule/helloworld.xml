@@ -11,6 +11,5 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="c07cb13a-1048-4fdf-a113-1706886f541f" config-ref="HTTP_Listener_config" path="/class"/>
 		<logger level="INFO" doc:name="Logger" doc:id="4ebaabe2-4d5f-4c7a-8ccc-df7d95f5989a" message="add one logger"/>
 		<logger level="INFO" doc:name="Logger" doc:id="d8f76bc1-9c77-4104-8174-80d06d0a40b9" message="second logger"/>
-		<logger level="INFO" doc:name="Logger" doc:id="caa6f855-d3b0-4e63-a14f-3d06689b2d5e" message="this the therd logger"/>
 	</flow>
 </mule>
